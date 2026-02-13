@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = '/api';
+const API_BASE_URL = 'https://personalknowledge-q-a.onrender.com/api';
 
 export interface Document {
   id: string;

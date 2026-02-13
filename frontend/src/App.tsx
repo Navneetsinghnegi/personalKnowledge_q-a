@@ -10,7 +10,7 @@ function App() {
   const checkDocuments = async () => {
     try {
       const data = await documentApi.getDocuments();
-      setHasDocuments(data.documents.length > 0);
+      setHasDocuments((data?.documents?.length || 0) > 0);
     } catch (err) {
       console.error('Failed to check documents:', err);
     }

@@ -100,13 +100,13 @@ const DocumentList: React.FC<DocumentListProps> = ({ onDocumentChange }) => {
 
       {loading ? (
         <div className="loading">Loading documents...</div>
-      ) : documents.length === 0 ? (
+      ) : (documents || []).length === 0 ? (
         <div className="empty-state">
           <p>No documents yet. Upload a .txt file to get started!</p>
         </div>
       ) : (
         <div className="documents">
-          {documents.map((doc) => (
+          {documents?.map((doc) => (
             <div key={doc.id} className="document-item">
               <div className="document-info">
                 <div className="document-name">{doc.name}</div>
