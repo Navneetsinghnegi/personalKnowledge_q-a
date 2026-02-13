@@ -1,7 +1,7 @@
 # 📚 Private Knowledge Q&A
 
 A full-stack MERN + TypeScript application that allows you to upload documents and ask questions about them using AI.
-
+Live Link: https://personal-knowledge-q-a.vercel.app
 ## 🌟 Features
 
 - **Document Upload**: Upload text files (.txt) to your personal knowledge base
