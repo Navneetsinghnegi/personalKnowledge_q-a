@@ -18,7 +18,7 @@ Live Link: https://personal-knowledge-q-a.vercel.app
 - **TypeScript** - Type safety
 - **MongoDB** + **Mongoose** - Database
 - **Multer** - File upload handling
-- **Anthropic Claude API** - AI-powered question answering
+- **Huggingface Inference API** - mistralai/Mistral-7B-Instruct-v0.2
 
 ### Frontend
 - **React** - UI library
@@ -32,7 +32,7 @@ Before you begin, ensure you have the following installed:
 - **Node.js** (v16 or higher)
 - **npm** or **yarn**
 - **MongoDB** (v5 or higher) - running locally or a MongoDB Atlas account
-- **Anthropic API Key** - Get one from [console.anthropic.com](https://console.anthropic.com/)
+- **Huggingface Access Token** - Get one from https://huggingface.co/settings/tokens
 
 ## 🚀 Installation & Setup
 
